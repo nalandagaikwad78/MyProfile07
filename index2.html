@@ -7,6 +7,36 @@
          color: rgb(243, 18, 78);
          background-color: rgb(144, 195, 240);
         }
+        #userName{
+            margin: 20px;
+        }
+        #contactNumber{
+            margin: 20px;
+        }
+        #email{
+            margin: 20px;
+        }
+        .tools{
+           text-transform: uppercase;
+           padding: 10px;
+        }
+        #linkedin{
+            padding: 10px;
+        }
+        #instagram{
+            padding: 10px;
+        }
+        #facebook{
+            padding: 10px;
+        }
+        #google{
+            padding: 10px;
+        }
+        #youtube{
+            padding: 10px;
+        }
+
+
     </style>
      <!-- CDN Link -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -14,20 +44,20 @@
 <body>
     <header>
         <i class="fa fa-user-circle" aria-hidden="true"></i>
-        <span>Mohit Sharma </span> &nbsp; &nbsp; &nbsp;
+        <span id="userName">Mohit Sharma </span> 
         <i class="fa fa-phone-square" aria-hidden="true"></i>
-        <span> 8600 2222 50 </span> &nbsp; &nbsp; &nbsp;
+        <span id="contactNumber"> 8600 2222 50 </span> 
         <i class="fa fa-envelope-o" aria-hidden="true"></i>
-        <span> gajanan.kharat@gmail.com </span>
+        <span id="email"> gajanan.kharat@gmail.com </span>
     </header>
     <br>
     
     <nav>
-        <a href="home.html" target="frame">Home</a>&nbsp;&nbsp;
-        <a href="personal.html" target="frame">Technology stack</a>&nbsp;&nbsp;
-        <a href="techStack.html" target="frame">Education</a>&nbsp;&nbsp;
-        <a href="index.html"target="frame">Personal </a>&nbsp;&nbsp;
-        <a href="education.html"target="frame">Contact Us</a>
+        <a class="tools" href="home.html" target="frame">Home</a>
+        <a class="tools" href="personal.html" target="frame">Technology stack</a>
+        <a class="tools" href="techStack.html" target="frame">Education</a>
+        <a class="tools" href="index.html"target="frame">Personal </a>
+        <a class="tools" href="education.html"target="frame">Contact Us</a>
     </nav>
 
     <br> <br> 
@@ -37,12 +67,12 @@
     </iframe>
 
     <br> <br> 
-    <span> Follow me </span> &nbsp; &nbsp;
-    <i class="fa fa-linkedin-square" aria-hidden="true"></i> &nbsp; &nbsp; &nbsp;
-    <i class="fa fa-instagram" aria-hidden="true"></i> &nbsp; &nbsp; &nbsp;
-    <i class="fa fa-facebook-square" aria-hidden="true"></i> &nbsp; &nbsp; &nbsp;
-    <i class="fa fa-google" aria-hidden="true"></i>&nbsp; &nbsp; &nbsp;
-    <i class="fa-brands fa-youtube"></i>
+    <span> Follow me </span>
+    <i id="linkedin" class="fa fa-linkedin-square" aria-hidden="true" ></i> 
+    <i id="instagram" class="fa fa-instagram" aria-hidden="true" ></i> 
+    <i id="facebook" class="fa fa-facebook-square" aria-hidden="true" ></i> 
+    <i id="google" class="fa fa-google" aria-hidden="true" ></i>
+    <i id="youtube" class="fa-brands fa-youtube" ></i>
     
 </body>
 </html>
