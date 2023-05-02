@@ -5,6 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <style>
+     *{
+        font-family: 'Roboto Slab', serif;
+     }
+     label{
+        color: rgb(155, 155, 8);
+        font-size: larger;
+     }
+     input{
+                width: 400px;
+                height: 25px;
+                border-radius: 10px;
+                border: 1px solid burlywood;
+                color: rgb(118, 118, 4);
+                text-transform: capitalize;
+            }
+            input[type="text"]{
+                text-transform: capitalize;
+            }
+            input[type="email"]{
+                background-color: rgb(240, 202, 202);
+
+            } 
+             #submit:hover{
+                background-color: rgb(156, 156, 212);
+                font-family: 'Bebas Neue', cursive;
+                
+             }
+             button[type="reset"]:hover{
+                color: rgb(156, 156, 212);
+                font-family: 'Bebas Neue', cursive;
+             }
+
+             
+    </style>
 </head>
 <body>
     <h2>Contact Us</h2>
@@ -20,14 +61,14 @@
             </tr>
             <tr>
                 <td><label form="emailAddress">Email:</label></td>
-                <td><input type="text" id="emailAddress"required placeholder="Ex.abc@gmail.com"></td>
+                <td><input type="email" id="emailAddress"required placeholder="Ex.abc@gmail.com"></td>
             </tr>
             <tr>
                 <td><label>Enquiry:</label></td>
                 <td><textarea rows="7" cols="25"></textarea></td>
             </tr>
             <tr>
-                <td><button type="submit">Submit</button></td>
+                <td><button type="submit" id="submit">Submit</button></td>
                 <td><button type="reset">Clear</button></td>
             </tr>
 
