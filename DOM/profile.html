@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="color">My Prfile Details</h1>
+
+<h2 id="colorRed">Technology Stack</h2>
+
+<div>
+    <ul class="courses">
+        <li>HTML & CSS</li>
+        <li id="and">Agile & JIRA</li>
+        <li>Angular or React</li>
+        <li>Oracle Database</li>
+    </ul>
+</div>
+<h1>My Hobbies</h1>
+
+
+<a href="https://www.croma.com/" target="_blank" class="link">My Profile</a>
+
+
+<h3>Project Description</h3>
+
+<script>
+
+const elementColor = document.querySelector(`.color`)
+elementColor.style.color = 'blue';
+
+const elementColorRed = document.querySelector(`#colorRed`)
+elementColorRed.style.color = 'red';
+
+const elementCourses = document.querySelector('.courses');
+const elementAnd = document.querySelector('#and');
+elementCourses.removeChild(elementAnd);
+
+const elementLink = document.querySelector('.link');
+elementLink.setAttribute('href', 'https://www.croma.com/');
+
+
+
+</script>
+</body>
+</html>
+
